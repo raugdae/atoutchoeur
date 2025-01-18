@@ -1,0 +1,43 @@
+.itemCard{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    justify-content: center;
+    justify-self: center;
+    
+    width: 90%;
+    
+    
+}
+.itemTitle{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    background-color: var(--alternate-color-lightorange);
+    color : var(--main-color-bordeaux);
+    border-left-color: var(--alternate-color-lightorange);
+    border-left-width: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 100%;
+    font-weight:bold;
+    font-size: larger;
+}
+.itemContent{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--alternate-color-grey);
+    color: var(--main-color-orange);
+    border-right-color: var(--main-color-bordeaux);
+    border-right-width: 5px;
+    border-left-color: var(--alternate-color-lightorange);
+    border-left-width: 5px;
+    border-bottom-color:var(--main-color-bordeaux);
+    border-bottom-width: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width:100%;
+    padding: 0.5rem;
+}

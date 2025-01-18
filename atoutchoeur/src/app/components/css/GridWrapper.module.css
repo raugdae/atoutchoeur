@@ -1,0 +1,10 @@
+.gridWrapper{
+    display:flex;
+    flex-direction: row;
+
+    justify-content: space-evenly;
+    margin:auto;
+
+    width:90%;
+    
+}

@@ -1,0 +1,15 @@
+.middleBanner{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 90%;
+    margin:auto;
+    height: 600px;
+
+    background-color: red;
+}
+.middleBannerImage{
+    width:100%;
+    position:relative;
+    border-radius: 5px;
+}

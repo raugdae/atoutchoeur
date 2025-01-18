@@ -1,0 +1,12 @@
+.verticalFlexbox{
+    display:flex;
+    flex-direction: column ;
+    flex-wrap: nowrap;
+    
+    width: 60%;
+    margin:auto;
+    gap : 1rem;
+    margin-top:1.5rem;
+
+
+}

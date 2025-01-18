@@ -1,0 +1,12 @@
+.footerFlexbox{
+    display:flex;
+    flex-direction: row;
+    background-color: var(--alternate-color-grey);
+    align-items: center;
+    justify-content: center;
+}
+.footerFlexboxItem{
+    display:flex;
+    font-size: large;
+
+}

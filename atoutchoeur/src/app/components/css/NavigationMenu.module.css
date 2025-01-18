@@ -1,0 +1,18 @@
+.navigationMenu{
+    display : flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+    width: 100%;
+    height: 40px;
+
+    background-color: var(--alternate-color-lightorange);
+    color:var(--main-color-bordeaux);
+    font-size:Large;
+    border-color: var(--main-color-bordeaux);
+    border-style: inset;
+    border-left-width: 5px;
+    border-right-width: 5px;
+    
+}

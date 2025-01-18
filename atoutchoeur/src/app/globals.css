@@ -3,8 +3,12 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --main-color-bordeaux:rgb(114,47,55);
+  --main-color-orange:rgb(255,140,0);
+  --alternate-color-lightorange:rgb(255,179,71);
+  --alternate-color-darkbordeaux:rgb(74,29,35);
+  --alternate-color-cream:rgb(255,245,230);
+  --alternate-color-grey:rgb(94,74,44);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -15,7 +19,7 @@
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
+  color: var(--main-color-bordeaux);
+  background: var(--alternate-color-cream);
   font-family: Arial, Helvetica, sans-serif;
 }
