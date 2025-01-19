@@ -9,6 +9,31 @@
   --alternate-color-darkbordeaux:rgb(74,29,35);
   --alternate-color-cream:rgb(255,245,230);
   --alternate-color-grey:rgb(94,74,44);
+
+  --border-radius-sm:5px;
+  --border-radius-md:10px;
+  --border-radius-lg:25px;
+
+  --border-width-xsm:1px;
+  --border-width-sm:5px;
+  --border-width-md:10px;
+  --border-width-lg:15px;
+
+  --small-height:10px;
+  --medium-height:15px;
+  --large-height:40px;
+
+  --small-width:150px;
+  --medium-width:250px;
+  --large-width:400px;
+
+  --medium-banner-height:300px;
+  --big-banner-height:600px;
+
+  --margin:5px;
+  --margin-medium:25px;
+  --margin-big:50px;
+
 }
 
 @media (prefers-color-scheme: dark) {

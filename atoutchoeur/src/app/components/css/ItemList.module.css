@@ -10,16 +10,30 @@
     
     
 }
-.itemTitle{
+
+.itemTitle, .itemContent{
+
     display:flex;
     align-items: center;
     justify-content:center;
+
+    border-left-color: var(--alternate-color-lightorange);
+    border-left-width: var(--border-width-sm);
+    border-right-color: var(--main-color-bordeaux);
+    border-right-width: var(--border-width-sm);
+    
+}
+
+.itemTitle{
+    
+
     background-color: var(--alternate-color-lightorange);
     color : var(--main-color-bordeaux);
-    border-left-color: var(--alternate-color-lightorange);
-    border-left-width: 5px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+
+    border-top-left-radius: var(--border-radius-sm);
+    border-top-right-radius: var(--border-radius-sm);
+    
+
     width: 100%;
     font-weight:bold;
     font-size: larger;
@@ -30,14 +44,14 @@
     align-items: center;
     background-color: var(--alternate-color-grey);
     color: var(--main-color-orange);
-    border-right-color: var(--main-color-bordeaux);
-    border-right-width: 5px;
-    border-left-color: var(--alternate-color-lightorange);
-    border-left-width: 5px;
+    
     border-bottom-color:var(--main-color-bordeaux);
-    border-bottom-width: 5px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+    border-bottom-width: var(--border-width-sm);
+    border-bottom-left-radius: var(--border-radius-sm);
+    border-bottom-right-radius: var(--border-radius-sm);
+
+    
+    
     width:100%;
     padding: 0.5rem;
 }

@@ -11,5 +11,5 @@
 .middleBannerImage{
     width:100%;
     position:relative;
-    border-radius: 5px;
+    border-radius: var(--border-radius-sm);
 }

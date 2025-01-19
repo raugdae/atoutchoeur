@@ -1,0 +1,13 @@
+.joinUsWrapper{
+    display : flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    width: 90%;
+    margin:auto;
+    height: 900px;
+    
+
+    
+}
+

@@ -1,0 +1,59 @@
+.base {
+  display: flex;
+  flex-direction: row;
+  font-size: large;
+
+  align-items: stretch;
+  height: 100%;
+
+  
+}
+.childStyle {
+  display: flex;
+  flex-basis: 70%;
+  align-items: flex-start;
+  margin: var(--margin-medium);
+  padding: var(--margin-medium);
+
+  border-width: 5px;
+
+  
+}
+
+.childStyle h1 {
+  font-weight: 900;
+  text-decoration: underline;
+  
+}
+
+.childStyle h2 {
+  font-weight: 600;
+}
+
+.childStyle p {
+  font-weight: 300;
+  margin : var(--margin-medium);
+  
+}
+.childStyle b {
+  font-weight: 600;
+}
+
+.childStyle a {
+  border-radius: var(--border-radius-la);
+  background-color: var(--alternate-color-lightorange);
+  
+}
+.childStyle ul{
+    list-style-image:url('/assets/atout-choeur-bulletpoint.png');
+    
+}
+
+.image {
+  display: flex;
+  flex-grow:1;
+  position: relative;
+  border-radius: var(--border-radius-lg);
+  
+  
+}

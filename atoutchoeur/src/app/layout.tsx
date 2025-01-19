@@ -2,6 +2,14 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
+import footerFlexbox from './components/css/FooterFlexbox.module.css'
+import menuContainer from './components/css/MenuContainer.module.css'
+import verticalFlexbox from './components/css/VerticalFlexbox.module.css'
+import topBannerFlexbox from './components/css/TopBannerFlexbox.module.css'
+import gridWrapper from './components/css/GridWrapper.module.css'
+import Image from 'next/image'
+import { NavLink } from './components/ui/navlink'
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -27,7 +35,29 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <div className={verticalFlexbox.verticalFlexbox}>
+          <div className={topBannerFlexbox.topBanner}>
+            <div className={topBannerFlexbox.topBannerImage}>
+              <Image src='/assets/top-banner.png' alt='Banniere' fill className='object-cover' />
+            </div>
+          </div>
+          <div className={gridWrapper.gridWrapper}>
+            <div className={menuContainer.menuContainer}>
+              <NavLink href='/' variant="startHorizontal">Accueil</NavLink>
+              <NavLink href='/joinus' variant="horizontal">Recrutement</NavLink>
+              <NavLink href='/about' variant="horizontal">Qui sommes nous?</NavLink>
+              <NavLink href='/contact' variant="endHorizontal">Nous contacter</NavLink>
+            </div>
+          </div>
+          {children}
+          <div className={footerFlexbox.footerFlexbox}>
+            <div className={footerFlexbox.footerFlexboxItem}>
+              Dévelopé par &nbsp;<a href='https://www.raug-info.ch'>raug-info.ch</a>&nbsp;- 2024 - Tout droit réservé
+            </div>
+
+          </div>
+
+        </div>
       </body>
     </html>
   );

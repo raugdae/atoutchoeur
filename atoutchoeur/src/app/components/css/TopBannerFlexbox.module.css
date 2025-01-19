@@ -4,11 +4,11 @@
     flex-wrap: nowrap;
     width: 90%;
     margin:auto;
-    height: 300px;
+    height: var(--medium-banner-height);
 
 }
 .topBannerImage{
     width:100%;
     position:relative;
-    border-radius: 5px;
+    border-radius: var(--border-radius-sm);
 }
